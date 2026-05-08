@@ -1,0 +1,35 @@
+# deps
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+dist/
+build/
+out/
+.next/
+.turbo/
+*.tsbuildinfo
+
+# extension build artifacts
+extension/dist/
+extension/.output/
+*.zip
+*.crx
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

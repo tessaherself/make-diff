@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Times New Roman', Times, ui-serif, serif;
+  --font-mono: ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+
+  --color-bg: #050507;
+  --color-bg-soft: #0c0c10;
+  --color-fg: #e9e9ec;
+  --color-fg-dim: #8a8a92;
+  --color-fg-faint: #45454c;
+  --color-line: #1f1f24;
+  --color-accent: #f59e0b;
+  --color-danger: #f43f5e;
+  --color-good: #34d399;
+}
+
+html, body {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Dot grid background pattern */
+.bg-dotgrid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Corner frame accent helpers */
+.corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: var(--color-fg-faint);
+  pointer-events: none;
+}
+.corner-tl { top: 12px; left: 12px; border-top-width: 1px; border-left-width: 1px; }
+.corner-tr { top: 12px; right: 12px; border-top-width: 1px; border-right-width: 1px; }
+.corner-bl { bottom: 12px; left: 12px; border-bottom-width: 1px; border-left-width: 1px; }
+.corner-br { bottom: 12px; right: 12px; border-bottom-width: 1px; border-right-width: 1px; }
+
+/* Vertical writing mode tab */
+.vtab {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  letter-spacing: 0.2em;
+}
+
+/* Subtle pulse for status dots */
+@keyframes md-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+.pulse { animation: md-pulse 1.6s ease-in-out infinite; }
+.pulse-2 { animation: md-pulse 1.6s ease-in-out infinite; animation-delay: 0.2s; }
+.pulse-3 { animation: md-pulse 1.6s ease-in-out infinite; animation-delay: 0.4s; }
+
+/* Selection */
+::selection { background: var(--color-accent); color: var(--color-bg); }

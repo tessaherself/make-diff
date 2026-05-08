@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "make diff",
+  "version": "0.1.0",
+  "description": "Record manual CSS/DOM edits in DevTools and export a paste-ready diff for your coding agent.",
+  "minimum_chrome_version": "116",
+  "permissions": ["debugger", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "devtools_page": "devtools.html",
+  "action": {
+    "default_title": "make diff"
+  }
+}
