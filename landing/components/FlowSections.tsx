@@ -31,7 +31,7 @@ const sections = [
     title: 'Pre-alpha. Load unpacked for now.',
     body: 'Chrome Web Store listing coming once we\'re past pre-alpha. Until then: clone the repo, build the extension, load unpacked. Five minutes — the README walks you through it.',
     accent: 'text-[var(--color-fg)]',
-    cta: { label: 'GITHUB.COM/MAKE-DIFF', href: 'https://github.com/timo-wacke/make-diff' },
+    cta: { label: 'GITHUB.COM/MAKE-DIFF', href: 'https://github.com/tessaherself/make-diff' },
   },
 ];
 

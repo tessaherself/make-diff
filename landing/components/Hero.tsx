@@ -58,7 +58,7 @@ export function Hero() {
           <CTAButton href="#install" variant="primary">
             INSTALL EXTENSION
           </CTAButton>
-          <CTAButton href="https://github.com/timo-wacke/make-diff" variant="ghost">
+          <CTAButton href="https://github.com/tessaherself/make-diff" variant="ghost">
             VIEW ON GITHUB →
           </CTAButton>
           <span className="ml-auto hidden font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-faint)] sm:inline">

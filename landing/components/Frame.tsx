@@ -15,7 +15,7 @@ export function Frame() {
             <span>v0.1 · OPEN BETA</span>
             <span className="h-3 w-px bg-[var(--color-fg-faint)]" />
             <a
-              href="https://github.com/timo-wacke/make-diff"
+              href="https://github.com/tessaherself/make-diff"
               className="hover:text-[var(--color-fg)] transition-colors"
             >
               GITHUB
