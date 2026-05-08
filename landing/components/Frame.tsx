@@ -58,7 +58,7 @@ export function Frame() {
               <span className="block h-1 w-1 rounded-full bg-[var(--color-good)]/60 pulse-2" />
               <span className="block h-1 w-1 rounded-full bg-[var(--color-good)]/40 pulse-3" />
             </div>
-            <span className="hidden sm:inline">FRAME: ∞</span>
+            <span className="hidden sm:inline">DIFF: LIVE</span>
           </div>
         </div>
       </footer>

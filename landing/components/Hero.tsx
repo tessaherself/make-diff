@@ -45,8 +45,8 @@ export function Hero() {
             and exports a paste-ready snippet for Claude Code, Cursor, or whatever agent you use.
           </p>
           <div className="font-mono text-[11px] uppercase tracking-wider text-[var(--color-fg-faint)] lg:text-right">
-            <div>Bokaro Steel City — Bochum — Berlin</div>
-            <div>For developers who&rsquo;d rather show than tell.</div>
+            <div>v0.1.0 · OPEN SOURCE · MIT</div>
+            <div>BUILT FOR DEVS WHO&rsquo;D RATHER SHOW THAN TELL</div>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ export function Hero() {
             VIEW ON GITHUB →
           </CTAButton>
           <span className="ml-auto hidden font-mono text-[10px] uppercase tracking-wider text-[var(--color-fg-faint)] sm:inline">
-            ∞ &nbsp; SISYPHUS.PROTOCOL
+            ↳ &nbsp; CDP.ATTACHED
           </span>
         </div>
 
